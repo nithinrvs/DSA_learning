@@ -16,3 +16,16 @@ ans = F(1) + F(2) + F(3) + F(4)
     = 1 + 3 + 4 + 7
     = 15
 '''
+
+class Solution:
+    def sumOfDivisors(self, N):
+        sum = 0
+        for i in range(1, N+1):
+            sum += i * (N // i)
+        return sum
+    	
+
+ob = Solution()
+print(ob.sumOfDivisors(4))
+
+print(4//3)
