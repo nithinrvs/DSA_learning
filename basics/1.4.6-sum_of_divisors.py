@@ -27,5 +27,3 @@ class Solution:
 
 ob = Solution()
 print(ob.sumOfDivisors(4))
-
-print(4//3)
