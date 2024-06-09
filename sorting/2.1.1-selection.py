@@ -17,4 +17,4 @@ arr = [4, 1, 3, 9, 7]
 Solution().selectionSort(arr, n)
 for i in range(n):
     print(arr[i],end=" ")
-print()
+print() 
